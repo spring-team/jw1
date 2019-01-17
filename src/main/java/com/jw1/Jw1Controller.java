@@ -9,7 +9,7 @@ class Jw1Controller {
 
 	@GetMapping("/hello/{name}")
 	public String person(@PathVariable String name) {
-		return "Hello " + name + "!";
+		return "Hello again " + name + "!";
 	}
 
 	@GetMapping("/")
